@@ -1,0 +1,37 @@
+.nftMintCard-box {
+  max-width: 405px;
+}
+.nftMintCard-box_image {
+  margin-bottom: 40px;
+}
+.nftMintCard-box_title {
+  margin-bottom: 40px;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 67px;
+
+  color: #030303;
+}
+.nftMintCard-box_text {
+  margin-bottom: 30px;
+}
+.nftMintCard-box_list {
+  list-style: inside;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.nftMintCard-box_list-text {
+  max-width: 75%;
+}
+.nftMintCard-box_list-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+.nftMintCard-button-box {
+  display: flex;
+  align-items: center;
+  max-width: 305px;
+}
+.nftMintCard-button {
+  border: none;
+}

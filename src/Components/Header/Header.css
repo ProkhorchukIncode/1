@@ -1,0 +1,22 @@
+.header-section {
+  background-color: black;
+}
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0 59px 0;
+}
+.header-box_logo {
+  max-width: 590px;
+}
+.header-box_link {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #f3f3f3;
+}
