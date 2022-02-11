@@ -1,12 +1,54 @@
+@keyframes changeRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .social-link-list {
   display: flex;
   align-items: center;
 }
-.social-link-list img:hover,
-.social-link-list img:focus {
+.social-link-list__list-item:not(:last-child) {
+  margin-right: 20px;
+}
+.social-link-list__link-relative {
+  position: relative;
+}
+.social-link-list__link-img-box {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social-link-list__link-box {
+  width: 95px;
+  height: 95px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.social-link-list__link-relative:hover,
+.social-link-list__link-relative:focus-within {
   opacity: 0.5;
   transition: opacity 0.4s;
 }
-.social-link-list__email {
-  margin-left: 12px;
+.social-link-list__link-relative:hover > .social-link-list__link-box,
+.social-link-list__link-relative:focus-within > .social-link-list__link-box {
+  animation-name: changeRotate;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.social-link-list__link-box-twitter {
+  background-image: url('../../Images/circle-tw.svg');
+}
+.social-link-list__link-box-discord {
+  background-image: url('../../Images/circle-dis.svg');
+}
+.social-link-list__link-box-email {
+  background-image: url('../../Images/circle-mail.svg');
 }
