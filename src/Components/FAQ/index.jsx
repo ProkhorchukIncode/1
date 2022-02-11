@@ -7,7 +7,7 @@ export const FAQ = () => {
     <section className='faq-section' id='faq'>
       <Container>
         <div className='faq-box'>
-            <h2 className='faq-title'>NFT mint</h2>
+            <h2 className='faq-title'>FAQ</h2>
             <div className='faq-text-box'>
                       <h3 className='faq-text-box__title'>What’s an NFT?</h3>
                 <p className='faq-text-box__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>      
