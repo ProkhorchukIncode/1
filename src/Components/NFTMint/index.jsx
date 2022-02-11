@@ -44,7 +44,7 @@ export const NFTMint = () => {
                 img={img}
                 title={title}
                 text={text}
-                bulletPoints={bulletPoints}
+                bulletPoints={bulletPoints}   
               />
             })}
           </ul>

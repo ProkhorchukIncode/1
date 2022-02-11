@@ -9,14 +9,16 @@ export const Header = () => {
     <header className='header-section'>
       <Container>
         <div className='header-box'>
-          <img src={Logo} alt='PlaylistDAO' className='header-box_logo'/>
+          <div className='header-box__logo-box'>
+            <img src={Logo} alt='PlaylistDAO'/>
+          </div>
           <a href='#roadmap' className='header-box_link'>
             roadmap
           </a>
-          <a href='#roadmap' className='header-box_link'>
+          <a href='#faq' className='header-box_link'>
             faq
           </a>
-          <a href='#roadmap' className='header-box_link'>
+          <a href='#join' className='header-box_link'>
             join
           </a>
         </div>

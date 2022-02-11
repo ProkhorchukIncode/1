@@ -15,23 +15,86 @@
 }
 .nftMintCard-box_text {
   margin-bottom: 30px;
+
+  color: #030303;
 }
 .nftMintCard-box_list {
-  list-style: inside;
-  padding-left: 20px;
+  list-style: square;
+  padding-left: 25px;
   margin-bottom: 40px;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 22px;
 }
-.nftMintCard-box_list-text {
-  max-width: 75%;
+.nftMintCard-box_list-item {
+  max-width: 315px;
 }
-.nftMintCard-box_list-text:not(:last-child) {
-  margin-bottom: 20px;
+.nftMintCard-box_list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.nftMintCard-action-box {
+  display: flex;
+  align-items: center;
+  max-width: 305px;
+  height: 64px;
 }
 .nftMintCard-button-box {
   display: flex;
   align-items: center;
-  max-width: 305px;
+  justify-content: center;
+  width: 113px;
+  height: 100%;
+  background-color: #030303;
+  color: #f3f3f3;
 }
 .nftMintCard-button {
   border: none;
+  background-color: inherit;
+  color: inherit;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 27.4756px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+}
+.nftMintCard-button-result {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 27.4756px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  margin: 0 5px;
+}
+.nftMintCard-link-box {
+  text-transform: uppercase;
+  padding: 18px 24px 23px 27px;
+  height: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  background-color: rgba(205, 168, 103, 0.7);
+}
+.nftMintCard-link-box:hover,
+.nftMintCard-link-box:focus-within {
+  opacity: 0.8;
+  transition: opacity 0.4s;
+}
+.nftMintCard-link {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 27.45px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  color: #030303;
+}
+.nftMintCard-link-arrow {
+  margin-left: 9px;
+}
+@media screen and (max-width: 768px) {
+  .nftMintCard:not(:last-child) {
+    display: block;
+    margin-bottom: 40px;
+  }
 }

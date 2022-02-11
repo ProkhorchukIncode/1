@@ -1,0 +1,12 @@
+.social-link-list {
+  display: flex;
+  align-items: center;
+}
+.social-link-list img:hover,
+.social-link-list img:focus {
+  opacity: 0.5;
+  transition: opacity 0.4s;
+}
+.social-link-list__email {
+  margin-left: 12px;
+}

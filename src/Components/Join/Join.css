@@ -1,0 +1,19 @@
+.join-section {
+  background-size: cover;
+  background-image: url('../../Images/Image\ of\ People-min.png');
+}
+.join-box {
+  padding: 80px 0 300px 0;
+}
+.join-title {
+  padding-bottom: 60px;
+
+  color: #030303;
+  border-bottom: 2px solid #030303;
+}
+.join-text-box {
+  padding: 60px 0;
+}
+.join-text-box_text {
+  color: #030303;
+}

@@ -1,0 +1,21 @@
+.roadmap-section {
+  background-color: #cda867;
+}
+.roadmap-box {
+  padding: 80px 0 200px;
+}
+.roadmap-title {
+  padding-bottom: 60px;
+
+  color: #f3f3f3;
+  border-bottom: 2px solid #f3f3f3;
+}
+.roadmap-list {
+  padding-top: 75px;
+}
+.roadmap-list li:not(:last-child) {
+  margin-bottom: 80px;
+}
+.track-card-title {
+  max-width: 590px;
+}

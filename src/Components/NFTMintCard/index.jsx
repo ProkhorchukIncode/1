@@ -12,14 +12,14 @@ export const NFTMintCard = ({img, title, text, bulletPoints}) => {
   }
 
   const handleDecrement = () => {
-    if(count === 0){
+    if(count === 1){
       return
     }
     setCount(count-1)
   }
 
   return (
-    <li>
+    <li className='nftMintCard'>
       <div className='nftMintCard-box'>
         <img src={img} alt={title} className='nftMintCard-box_image'/>
         <h3 className='nftMintCard-box_title'>{title}</h3>
@@ -32,22 +32,28 @@ export const NFTMintCard = ({img, title, text, bulletPoints}) => {
           })}
         </ul>
       </div>
-      <div className='nftMintCard-button-box'>
-        <button 
-          className='nftMintCard-button'
-          onClick={handleDecrement}
-        >
-          -
-        </button>
-        <span className='nftMintCard-button-result'>
-          {count}
-        </span>
-        <button 
-          className='nftMintCard-button'
-          onClick={handleIncrement}
-        >
-          +
-        </button>
+      <div className='nftMintCard-action-box'>
+        <div className='nftMintCard-button-box'>
+          <button 
+            className='nftMintCard-button'
+            onClick={handleDecrement}
+          >
+            -
+          </button>
+          <span className='nftMintCard-button-result'>
+            {count < 10
+              ?
+              `0${count}`
+              :
+              count}
+          </span>
+          <button 
+            className='nftMintCard-button'
+            onClick={handleIncrement}
+          >
+            +
+          </button>
+        </div>
         <div className='nftMintCard-link-box'>
           <a href='/' className='nftMintCard-link'>
             mint nft

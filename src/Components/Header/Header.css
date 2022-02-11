@@ -1,5 +1,5 @@
 .header-section {
-  background-color: black;
+  background-color: #030303;
 }
 .header-box {
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
   padding: 80px 0 59px 0;
 }
-.header-box_logo {
+.header-box__logo-box {
   max-width: 590px;
 }
 .header-box_link {

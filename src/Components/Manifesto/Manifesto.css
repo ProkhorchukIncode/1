@@ -1,0 +1,24 @@
+.manifesto-section {
+  background-color: #030303;
+}
+.manifesto-box__position {
+  position: relative;
+}
+.manifesto-box {
+  padding-left: 100px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  max-width: 770px;
+}
+.manifesto-box__motto-image {
+  display: none;
+}
+@media screen and (min-width: 1230px) {
+  .manifesto-box__motto-image {
+    display: block;
+    max-width: 310px;
+    position: absolute;
+    top: 32%;
+    left: 90%;
+  }
+}
